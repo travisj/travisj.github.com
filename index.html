@@ -4,9 +4,9 @@ layout: default
 {% for post in site.posts limit: 10 %}
 <div id="post-{{ post.permalink }}">
 	<h2><a href="{{ first_post.url }}">{{ post.title }}</a></h2>
-	{{ post.content | truncate: 750 }}
+	{{ post.content }}
 	<p>
-		<a id="more" href="{{ post.url }}">Read More &raquo;</a>
+		<a href="{{ post.url }}#disqus_thread">Comments</a>
 	</p>
 </div>
 {% endfor %}
