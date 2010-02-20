@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+	<!--[if lt IE 8]>
+	<link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<![endif]-->
+</head>
+<body class="bp">
+	<div id="header">
+		<div class="container">
+			<div class="span-24 last">
+				<h1><a href="/">travisj</a></h1>
+				<p>a site about something (maybe)</p>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div id="content">
+			<div class="span-17 colborder">
+				{{ content }}
+			</div>
+			<div id="sidebar" class="span-6 last">
+				<h3>recent posts</h3>
+				<ul class="recent">
+				{% for post in site.posts limit: 7 %}
+				<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+				{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
