@@ -13,3 +13,4 @@ The following projects were used to create this blog:
 Jekyll is a pretty cool blog engine that combines templates and post files to generate static files for the blog. It was a pretty easy install and after looking at a couple template examples of fellow Jekyll users, my (basic) templates were a snap to create. 
 
 Compass is another cool project I have been wanting to use for some time. Compass is a CSS framework that takes [sass](http://sass-lang.com/) files and creates the CSS. Sass is a HAML based CSS language. 
+
