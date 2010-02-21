@@ -1,6 +1,7 @@
 ---
 title: Hello, World
 layout: post
+categories: [jekyll, compass, github]
 ---
 
 Here is the obligitory hello world post for this new blog. I was more intersted in trying out a few github projects than starting a new blog, so don't be surprised if this is the only post you see here.

@@ -1,10 +1,15 @@
 destination:    ./_site
+permalink:      /:year/:month/:day/:title.html
 auto:           true
 lsi:            false
 server_port:    4000
 pygments:       true
 markdown:       maruku
-permalink:      date
 layout:         default
 exclude:
     - config.rb
+
+
+url:            http://travisj.github.com
+name:           travisj@github
+tagline:        a site about something (maybe)

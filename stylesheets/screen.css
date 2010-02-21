@@ -573,10 +573,10 @@ form.bp input.text, form.bp input.title { width: 300px; }
 form.bp textarea { width: 390px; height: 250px; }
 
 div#header { font-size: 1.3em; font-weight: 500; font-family: "museo-sans-1","museo-sans-2",sans-serif; background-color: #e9e9e9; border-bottom: 1px solid #333; padding-top: 20px; }
-div#header h1, div#header h2, div#header h3 { font-family: "museo-1","museo-2",serif; }
+div#header h1, div#header h2, div#header h3, div#header h4, div#header h5 { font-family: "museo-1","museo-2",serif; }
 div#header h1 { color: #333; font-size: 1.5em; }
 
 div#content { font-size: 1.3em; font-weight: 500; font-family: "museo-sans-1","museo-sans-2",sans-serif; padding-top: 10px; }
-div#content h1, div#content h2, div#content h3 { font-family: "museo-1","museo-2",serif; }
+div#content h1, div#content h2, div#content h3, div#content h4, div#content h5 { font-family: "museo-1","museo-2",serif; }
 
 div#recent2 { border: 1px solid #666; padding: 5px; background-color: #cfcfcf; }
