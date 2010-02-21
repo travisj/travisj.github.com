@@ -6,3 +6,5 @@ pygments:       true
 markdown:       maruku
 permalink:      date
 layout:         default
+exclude:
+    - config.rb

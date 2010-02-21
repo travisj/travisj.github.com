@@ -2,6 +2,8 @@
 @import blueprint/reset.sass
 // To configure blueprint, edit the partials/base.sass file.
 @import partials/base.sass
+@import partials/rounded-corners.sass
+@import partials/linenos.sass
 // Import all the default blueprint modules so that we can access their mixins.
 @import blueprint
 // Import the non-default scaffolding module.
@@ -17,8 +19,6 @@ body.bp
 	+blueprint-utilities
 	+blueprint-debug
 	+blueprint-interaction
-	// Remove the scaffolding when you're ready to start doing visual design.
-	// Or leave it in if you're happy with how blueprint looks out-of-the-box
 form.bp
 	+blueprint-form
 
@@ -35,3 +35,10 @@ div#header
 div#content
 	padding:
 		top: 10px
+
+div#recent2
+	border: 1px solid #666
+	padding: 5px
+	background:
+		color: #cfcfcf
+	//+border-radius("5px")
