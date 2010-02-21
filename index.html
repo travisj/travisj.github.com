@@ -3,7 +3,7 @@ layout: default
 ---
 {% for post in site.posts limit: 10 %}
 <div id="post-{{ post.url}}">
-	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	<h2 class="tk-museo"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 	{{ post.content }}
 	<p>
 		<a href="{{ post.url }}#disqus_thread">Comments</a>
