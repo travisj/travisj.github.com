@@ -9,6 +9,11 @@
 // Import the non-default scaffolding module.
 @import blueprint/modules/scaffolding.sass
 
+=tk-fonts
+	font-family: "droid-serif-1","droid-serif-2",serif
+	h1, h2, h3
+		font-family: "museo-1","museo-2",serif
+
 // To generate css equivalent to the blueprint css but with your configuration applied, uncomment:
 +blueprint
 
@@ -17,9 +22,6 @@
 +blueprint-scaffolding("body.bp")
 body
 	.bp
-		h1, h2, h3
-			font-family: "museo-1","museo-2",serif
-		font-family: "droid-serif-1","droid-serif-2",serif
 		+blueprint-utilities
 		+blueprint-debug
 		+blueprint-interaction
@@ -27,6 +29,7 @@ form.bp
 	+blueprint-form
 
 div#header
+	+tk-fonts
 	border:
 		bottom: 1px solid #333
 	padding: 
@@ -37,6 +40,7 @@ div#header
 		font-size: 1.5em
 
 div#content
+	+tk-fonts
 	padding:
 		top: 10px
 
