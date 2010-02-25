@@ -8,3 +8,5 @@ When I first tried out Compass I was drawn to the project because it turned the 
 After doing a little searching around github, I found a project that looks to be really close to what I wanted. [Sprite](http://github.com/gistinc/sprite) takes a config file and generates a sprite for you. It then creates the CSS or SASS mixin for you! I am looking forward to trying this project out.
 
 Anyone know of a better way to incorporate sprites into your development? While this sounds easy, I am not going to stop looking until I find an even easier sprite method.
+
+*Update 02/25/2010*: I am not as experienced installing ruby gems as I would have hoped. I am stalled on playing with this project as I try to get RMagick installed. I think the problem is with my install of ImageMagick, but need to keep investigating. I have install ImageMagick from both source and binary and it makes no difference. I am hoping to get some time this weekend to really dig into it and get something working.
