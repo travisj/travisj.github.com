@@ -1,6 +1,6 @@
 ---
 title: Custom domains with Wordpress MU
-layout: posts
+layout: post
 ---
 
 I have been hosting blogs for my family members for a long time and recently decided to switch over to [Wordpress MU](http://mu.wordpress.org). Wordpress MU allows you to maintain one Wordpress installation (one code base, one database, etc) and give multiple users their own blog. It works by allowing you to either choose a subdomain or first level directory for each user's blog. I wanted to give my family the ablity to have their own domains for a blog - not just be on a subdomain.

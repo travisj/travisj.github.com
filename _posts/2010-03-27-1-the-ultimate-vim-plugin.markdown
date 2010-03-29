@@ -1,6 +1,6 @@
 ---
 title: The Ultimate Vim Plugin
-layout: posts
+layout: post
 ---
 
 I switched to Vim from [Textmate](http://macromates.com/) and the hardest feature I had to leave behind was Textmate's Command-T function. When you type Command-T, Textmate indexes all the files in your working directory and allows you to search for the file you want to edit, just by typing a few letters in the filename. The letters don't even have to be next to each other, just in the filename. I used this featrue all the time. For instance, if I wanted to open some_class.php, I could search for 'sc' and most hit enter to edit the file.
